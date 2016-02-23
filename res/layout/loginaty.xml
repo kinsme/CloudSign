@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:background="#fff0f0f0"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+              <!--android:background="#fff0f0f0"-->
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_vertical">
+        <ImageView android:layout_width="wrap_content" android:layout_height="80dp"
+                android:src="@drawable/yunqianlogo"
+                android:layout_marginTop="50dp"
+                />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:layout_gravity="center"
+                  android:textColor="#0066FF"
+                android:text="云签"
+                android:textSize="25dp"/>
+    </LinearLayout>
+
+<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="12.0dp"
+         android:layout_marginRight="12.0dp"
+              android:layout_marginTop="25dp"
+        android:background="@drawable/logincontent"
+           >
+
+<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView android:layout_width="wrap_content" android:layout_height="20dp"
+                  android:text="账号"
+                  android:layout_marginTop="10dp"
+                  android:layout_marginLeft="15.0dp"/>
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/usernamem"
+                android:inputType="text"
+                android:hint="请输入账号"
+                android:layout_marginLeft="12.0dp"
+                android:layout_marginRight="12.0dp"/>
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:orientation="vertical"
+                  android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp">
+        <TextView android:layout_width="wrap_content" android:layout_height="20dp"
+                  android:text="密码"
+                  android:layout_marginLeft="15.0dp"/>
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/userpassword"
+                android:hint="请输入密码"
+                android:inputType="textPassword"
+                android:layout_marginLeft="12.0dp"
+                android:layout_marginRight="5.0dp"/>
+    </LinearLayout>
+    <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="忘记密码？"
+            android:id="@+id/forgetpw"
+            android:textColor="#0066FF"
+            android:layout_marginLeft="15.0dp"
+            android:background="#FFFFFF"
+            android:layout_marginBottom="5dp"/>
+</LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:layout_marginTop="70dp">
+        <Button android:layout_width="0dp" android:layout_height="wrap_content"
+                android:layout_weight="1" android:text="登陆" android:id="@+id/loginbtn"
+                android:background="@drawable/btncontent"
+                android:textSize="16dp"
+                android:textColor="#FFFFFF"/>
+        <Button android:layout_width="0dp" android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_weight="1" android:text="注册" android:id="@+id/registerbtn"
+                android:background="@drawable/btncontent"
+                android:textSize="16dp"
+                android:textColor="#FFFFFF"/>
+
+    </LinearLayout>
+
+</LinearLayout>

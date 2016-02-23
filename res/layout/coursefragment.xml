@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="40dp"
+            android:orientation="horizontal">
+        <TextView android:layout_width="40dp" android:layout_height="fill_parent"
+            android:text="十月"
+            android:gravity="center"/>
+        <TextView android:layout_width="0dp" android:layout_height="fill_parent"
+                  android:text="周一"
+                  android:layout_weight="1"
+                  android:id="@+id/weektext"
+                  android:gravity="center"/>
+        <TextView android:layout_width="0dp" android:layout_height="fill_parent"
+                  android:text="周二"
+                  android:layout_weight="1"
+                  android:gravity="center"/>
+        <TextView android:layout_width="0dp" android:layout_height="fill_parent"
+                  android:text="周三"
+                  android:layout_weight="1"
+                  android:gravity="center"/>
+        <TextView android:layout_width="0dp" android:layout_height="fill_parent"
+                  android:text="周四"
+                  android:layout_weight="1"
+                  android:gravity="center"/>
+        <TextView android:layout_width="0dp" android:layout_height="fill_parent"
+                  android:text="周五"
+                  android:layout_weight="1"
+                  android:gravity="center"/>
+        <TextView android:layout_width="0dp" android:layout_height="fill_parent"
+                  android:text="周六"
+                  android:layout_weight="1"
+                  android:gravity="center"/>
+        <TextView android:layout_width="0dp" android:layout_height="fill_parent"
+                  android:text="周日"
+                  android:layout_weight="1"
+                  android:gravity="center"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="1dp"
+            android:background="#333333"></LinearLayout>
+    <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:scrollbars="none">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+                android:id="@+id/relativemain">
+            <LinearLayout android:layout_width="40dp" android:layout_height="match_parent"
+                    android:orientation="vertical">
+                <TextView android:layout_width="40dp" android:layout_height="50dp"
+                android:text="一"
+                android:gravity="center"/>
+                <TextView android:layout_width="40dp" android:layout_height="50dp"
+                  android:text="二"
+                  android:gravity="center"/>
+                <TextView android:layout_width="40dp" android:layout_height="50dp"
+                          android:text="三"
+                          android:gravity="center"/>
+                <TextView android:layout_width="40dp" android:layout_height="50dp"
+                          android:text="四"
+                          android:gravity="center"/>
+                <TextView android:layout_width="40dp" android:layout_height="50dp"
+                          android:text="五"
+                          android:gravity="center"/>
+                <TextView android:layout_width="40dp" android:layout_height="50dp"
+                          android:text="六"
+                          android:gravity="center"/>
+                <TextView android:layout_width="40dp" android:layout_height="50dp"
+                          android:text="七"
+                          android:gravity="center"/>
+                <TextView android:layout_width="40dp" android:layout_height="50dp"
+                          android:text="八"
+                          android:gravity="center"/>
+                <TextView android:layout_width="40dp" android:layout_height="50dp"
+                          android:text="九"
+                          android:gravity="center"/>
+                <TextView android:layout_width="40dp" android:layout_height="50dp"
+                          android:text="十"
+                          android:gravity="center"/>
+                <TextView android:layout_width="40dp" android:layout_height="50dp"
+                          android:text="十一"
+                          android:gravity="center"/>
+                <TextView android:layout_width="40dp" android:layout_height="50dp"
+                          android:text="十二"
+                          android:gravity="center"/>
+            </LinearLayout>
+
+                         <!--android:background="#999999">-->
+                <!--&lt;!&ndash;<RelativeLayout android:layout_width="wrap_content"&ndash;&gt;-->
+                                <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+                                <!--&lt;!&ndash;android:layout_marginLeft="200dp"&ndash;&gt;-->
+                                <!--&lt;!&ndash;android:id="@+id/coursecontainer"&ndash;&gt;-->
+
+                    <!--<TextView android:layout_width="match_parent" android:layout_height="match_parent"-->
+                              <!--android:text="C++程序设计"-->
+                              <!--android:id="@+id/coursename"-->
+                              <!--android:gravity="center"/>-->
+            <!--</FrameLayout>-->
+    </RelativeLayout>
+
+    </ScrollView>
+
+</LinearLayout>

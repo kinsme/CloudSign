@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:background="#3399FF">
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="match_parent"
+                      android:layout_alignParentLeft="true"
+                      android:gravity="center">
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="返回"
+                android:textSize="20dp"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/returnbtn"
+                android:background="@drawable/btncontentreg"
+                android:textColor="#FFFFFF"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:gravity="center">
+            <TextView android:layout_width="wrap_content" android:layout_height="match_parent"
+                    android:text="账号注册"
+                    android:gravity="center"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20dp"
+                   />
+        </LinearLayout>
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="match_parent"
+                      android:layout_alignParentRight="true"
+                android:gravity="center">
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="注册"
+                android:layout_marginRight="10dp"
+                android:layout_alignParentRight="true"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                android:id="@+id/rbtn"
+                android:background="@drawable/btncontentreg"/>
+                <!--android:background="#0066FF"-->
+        </LinearLayout>
+    </RelativeLayout>
+    <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:background="@drawable/logincontent"
+        android:orientation="vertical"
+        android:layout_marginLeft="12.0dp"
+        android:layout_marginRight="12.0dp"
+        android:layout_marginTop="15dp">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:orientation="vertical"
+                  android:layout_marginTop="10dp">
+        <TextView android:layout_width="wrap_content" android:layout_height="20dp"
+                  android:text="账号"
+                  android:layout_marginLeft="15.0dp"/>
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rusernamem"
+                android:inputType="text"
+                android:layout_marginLeft="12.0dp"
+                android:layout_marginRight="12.0dp"
+                android:hint="@string/rusernametxt"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:orientation="vertical"
+                  android:layout_marginTop="10dp">
+        <TextView android:layout_width="wrap_content" android:layout_height="20dp"
+                  android:text="密码"
+                  android:layout_marginLeft="15.0dp"/>
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ruserpassword"
+                android:layout_marginLeft="12.0dp"
+                android:layout_marginRight="12.0dp"
+                android:inputType="textPassword"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:orientation="vertical"
+                  android:layout_marginTop="10dp">
+        <TextView android:layout_width="wrap_content" android:layout_height="20dp"
+                  android:text="姓名"
+                  android:layout_marginLeft="15.0dp"/>
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rname"
+                android:layout_marginLeft="12.0dp"
+                android:layout_marginRight="12.0dp"
+                android:inputType="text"
+                android:hint="@string/rnametxt"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:orientation="vertical"
+                  android:layout_marginTop="10dp">
+        <TextView android:layout_width="wrap_content" android:layout_height="20dp"
+                  android:text="性别"
+                  android:layout_marginLeft="15.0dp"/>
+        <Spinner android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginLeft="12.0dp"
+                 android:layout_marginRight="12.0dp"
+                 android:background="#FFFFFF"
+                 android:id="@+id/rsex"></Spinner>
+
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:orientation="vertical"
+                  android:layout_marginTop="10dp">
+        <TextView android:layout_width="match_parent" android:layout_height="20dp"
+                  android:text="年龄"
+                  android:layout_marginLeft="15.0dp"/>
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rage"
+                android:layout_marginLeft="12.0dp"
+                android:layout_marginRight="12.0dp"
+                android:inputType="number"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:orientation="vertical"
+                  android:layout_marginTop="10dp">
+        <TextView android:layout_width="match_parent" android:layout_height="20dp"
+                  android:text="Email"
+                  android:layout_marginLeft="15.0dp"/>
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12.0dp"
+                android:layout_marginRight="12.0dp"
+                android:id="@+id/remail"
+                android:inputType="text"/>
+    </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:orientation="vertical"
+                      android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp">
+            <RadioGroup android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:id="@+id/careerid">
+            <RadioButton android:layout_width="0dp" android:layout_height="wrap_content"
+                         android:layout_marginLeft="15.0dp"
+                         android:layout_weight="1"
+                    android:text="教师"
+                    android:id="@+id/teacher"/>
+            <RadioButton android:layout_width="0dp" android:layout_height="wrap_content"
+                          android:layout_weight="1"
+                    android:text="学生"
+                    android:id="@+id/student"/>
+            </RadioGroup>
+        </LinearLayout>
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/com/lexia/CloudSign/ConfigInformation.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/lexia/CloudSign/CourseDetails.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/lexia/CloudSign/LoginActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/lexia/CloudSign/RegisterAty.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/lexia/CloudSign/UserPageAty.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/lexia/CloudSign/config/ConfigFragment.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/lexia/CloudSign/config/CourseFragment.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/lexia/CloudSign/config/SigninFragment.java" charset="GBK" />
+    <file url="PROJECT" charset="GBK" />
+  </component>
+</project>

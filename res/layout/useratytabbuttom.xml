@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="0dp"
+              android:background="#CCCCCC"
+              android:layout_weight="1">
+              <!--android:layout_alignParentBottom="true"-->
+    <LinearLayout android:layout_width="match_parent" android:layout_height="2dp"
+                  android:background="#CCCCCC"></LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
+            android:orientation="horizontal">
+    <Button style="@style/useratyButtomBtn"
+              android:text="课程"
+              android:id="@+id/coursebtn"/>
+    <Button style="@style/useratyButtomBtn"
+              android:text="签到"
+            android:id="@+id/signinbtn"/>
+    <Button style="@style/useratyButtomBtn"
+              android:text="我"
+            android:id="@+id/configbtn"/>
+    </LinearLayout>
+</LinearLayout>

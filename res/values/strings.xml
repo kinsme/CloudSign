@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">云签</string>
+    <string name="rusernametxt">Email或手机号也可</string>
+    <string name="rnametxt">您的真实姓名</string>
+</resources>

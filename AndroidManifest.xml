@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.lexia.CloudSign"
+          android:versionCode="1"
+          android:versionName="1.0">
+<uses-sdk android:minSdkVersion="15"/>
+<!--多分辨率支持-->
+<supports-screens
+        android:smallScreens="true"
+        android:normalScreens="true"
+        android:largeScreens="true"
+        android:resizeable="true"
+        android:anyDensity="true" />
+<uses-permission android:name="android.permission.INTERNET"/>
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+<uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+<uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+<uses-permission android:name="android.permission.READ_LOGS"/>
+<uses-permission android:name="android.permission.BLUETOOTH" />
+<uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <application android:label="@string/app_name" android:icon="@drawable/yunqianlogo"
+             android:theme="@android:style/Theme.Light.NoTitleBar">
+    <activity android:name=".WelcomeAty"
+              android:label="@string/app_name">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN"/>
+            <category android:name="android.intent.category.LAUNCHER"/>
+        </intent-filter>
+    </activity>
+    <activity android:name=".RegisterAty"></activity>
+    <activity android:name=".UserPageAty"></activity>
+    <activity android:name=".CourseDetails"></activity>
+    <activity android:name=".ConfigInformation"></activity>
+        <activity android:name=".SigninList"></activity>
+        <activity android:name=".FindPasswordAty"></activity>
+        <activity android:name=".LoginActivity"></activity>
+</application>
+</manifest>

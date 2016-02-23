@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:id="@+id/screens"
+              android:layout_height="match_parent">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="50dp"
+                  android:orientation="horizontal">
+        <TextView android:layout_width="0dp" android:layout_height="50dp"
+                  android:layout_weight="1"
+                  android:gravity="center"
+                  android:textSize="20dp"
+                  android:text="姓名"
+                android:textColor="#0066FF"/>
+        <TextView android:layout_width="0dp" android:layout_height="50dp"
+                  android:layout_weight="1"
+                  android:gravity="center"
+                  android:textSize="20dp"
+                  android:textColor="#0066FF"
+                  android:text="学号"/>
+        <TextView android:layout_width="0dp" android:layout_height="50dp"
+                  android:layout_weight="2"
+                  android:gravity="center"
+                  android:textColor="#0066FF"
+                  android:textSize="20dp"
+                  android:text="蓝牙"/>
+    </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="2dp"
+            android:background="#CCCCCC"
+                      android:orientation="vertical"
+                android:id="@+id/shuaxintitle"
+                android:gravity="center">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="正在刷新..."
+                    android:textSize="20dp"
+                    android:id="@+id/sxinfo"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="0dp"
+                      android:layout_weight="1"
+                      android:orientation="vertical"
+                android:id="@+id/mainlayout">
+        <!--<ListView android:layout_width="match_parent" android:layout_height="wrap_content"-->
+            <!--android:id="@android:id/list"></ListView>-->
+            <com.lexia.CloudSign.config.ListViewForScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/listsign">
+            </com.lexia.CloudSign.config.ListViewForScrollView>
+        </LinearLayout>
+    <!--<ListView android:layout_width="match_parent" android:layout_height="0dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:id="@+id/listsign"></ListView>-->
+    <LinearLayout android:layout_width="match_parent" android:layout_height="2dp"
+                  android:background="#CCCCCC"></LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="50dp"
+                  android:orientation="horizontal">
+        <TextView android:layout_width="0dp" android:layout_height="50dp"
+                  android:layout_weight="1"
+                  android:gravity="center"
+                  android:textSize="20dp"
+                  android:text="合计"/>
+        <TextView android:layout_width="0dp" android:layout_height="50dp"
+                  android:layout_weight="1"
+                  android:gravity="center"
+                  android:textSize="20dp"
+                  android:id="@+id/signnum"/>
+    </LinearLayout>
+</LinearLayout>
+

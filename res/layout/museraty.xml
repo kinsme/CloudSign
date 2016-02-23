@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:background="#333333">
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_alignParentLeft="true">
+        <ImageView android:layout_width="60dp" android:layout_height="match_parent"
+                   android:src="@drawable/yunqianlogo" />
+        <TextView android:layout_width="wrap_content" android:layout_height="match_parent"
+                android:text="云签"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+        <Button android:layout_width="wrap_content" android:layout_height="match_parent"
+                android:layout_alignParentRight="true" android:text="快速签到"
+                android:id="@+id/quicksign"
+                android:layout_marginRight="10dp"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:background="#333333"/>
+    </RelativeLayout>
+
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="0dp"
+            android:layout_weight="10"
+            android:id="@+id/framecontent">
+        <android.support.v4.view.ViewPager
+            android:layout_width="match_parent" android:layout_height="match_parent"
+            android:id="@+id/mviewpager"></android.support.v4.view.ViewPager>
+    </FrameLayout>
+
+    <include layout="@layout/useratytabbuttom"></include>
+</LinearLayout>

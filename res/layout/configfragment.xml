@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+        android:background="#FFFFFF">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="20dp"
+            android:background="#CCCCCC"></LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="60dp"
+                  android:id="@+id/linearic"
+            android:orientation="horizontal"
+            android:layout_marginLeft="15dp">
+        <ImageView android:layout_width="50dp" android:layout_height="wrap_content"
+                android:src="@drawable/firsticon"
+                android:id="@+id/myicon"/>
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginLeft="20dp">
+        <TextView android:layout_width="wrap_content" android:layout_height="0dp"
+                android:gravity="center"
+                android:text="昵称"
+                  android:layout_weight="1.5"
+                android:id="@+id/userrealnamef"
+                android:textSize="20dp"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="0dp"
+                      android:gravity="top"
+                      android:layout_weight="1"
+                      android:text="账号"
+                      android:textColor="#666666"
+                      android:id="@+id/usernamef"
+                      android:textSize="15dp"/>
+        </LinearLayout>
+        <!--<LinearLayout android:layout_width="wrap_content" android:layout_height="match_parent"-->
+                <!--android:gravity="center"-->
+                <!--android:layout_marginLeft="100dp">-->
+            <!--<ImageButton android:layout_width="wrap_content" android:layout_height="50dp"-->
+                         <!--android:layout_marginLeft="30dp"-->
+                         <!--android:background="#FFFFFF"-->
+                         <!--android:src="@drawable/config"-->
+                         <!--android:id="@+id/configinfo"-->
+                         <!--android:scaleType="fitCenter"/>-->
+        <!--</LinearLayout>-->
+            <LinearLayout android:layout_width="0dp" android:layout_height="match_parent"
+                          android:layout_weight="1"
+                          android:layout_marginLeft="80dp"
+             >
+            <Button android:layout_width="0dp" android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:textSize="20dp"
+                    android:background="#FFFFFF"
+                    android:text="点击完善资料" android:id="@+id/configinfo"/>
+            </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="20dp"
+                  android:background="#CCCCCC"></LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="50dp"
+                      android:orientation="horizontal"
+                      android:layout_marginLeft="20dp">
+            <LinearLayout android:layout_width="0dp" android:layout_height="match_parent"
+                          android:layout_weight="1">
+                <TextView android:layout_width="wrap_content" android:layout_height="match_parent"
+                          android:text="学校"
+                          android:gravity="center"
+                          android:textSize="20dp"/></LinearLayout>
+            <LinearLayout android:layout_width="0dp" android:layout_height="match_parent"
+                          android:layout_weight="3">
+                <TextView android:layout_width="wrap_content" android:layout_height="match_parent"
+                          android:text="未设置"
+                          android:gravity="center"
+                          android:layout_marginLeft="10dp"
+                          android:textSize="20dp" android:id="@+id/schoolname"/></LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="2dp"
+                android:background="#CCCCCC"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"></LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="50dp"
+                      android:orientation="horizontal"
+                      android:layout_marginLeft="20dp">
+            <LinearLayout android:layout_width="0dp" android:layout_height="match_parent"
+                          android:layout_weight="1">
+                <TextView android:layout_width="wrap_content" android:layout_height="match_parent"
+                          android:text="学院"
+                          android:gravity="center"
+                          android:textSize="20dp"/></LinearLayout>
+            <LinearLayout android:layout_width="0dp" android:layout_height="match_parent"
+                          android:layout_weight="3" >
+                <TextView android:layout_width="wrap_content" android:layout_height="match_parent"
+                          android:text="未设置"
+                          android:gravity="center"
+                          android:layout_marginLeft="10dp"
+                          android:textSize="20dp" android:id="@+id/acadmyname"/></LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="20dp"
+                  android:background="#CCCCCC"></LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="50dp"
+                  android:orientation="horizontal"
+                  android:layout_marginLeft="20dp">
+        <LinearLayout android:layout_width="0dp" android:layout_height="match_parent"
+                      android:layout_weight="1">
+            <TextView android:layout_width="wrap_content" android:layout_height="match_parent"
+                      android:text="班级"
+                      android:gravity="center"
+                      android:textSize="20dp"/></LinearLayout>
+        <LinearLayout android:layout_width="0dp" android:layout_height="match_parent"
+                      android:layout_weight="3">
+            <TextView android:layout_width="wrap_content" android:layout_height="match_parent"
+                      android:text="未设置"
+                      android:gravity="center"
+                      android:layout_marginLeft="10dp"
+                      android:textSize="20dp" android:id="@+id/classname"/></LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="2dp"
+                  android:background="#CCCCCC"
+                  android:layout_marginLeft="15dp"
+                  android:layout_marginRight="15dp"></LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="50dp"
+                  android:orientation="horizontal"
+                  android:layout_marginLeft="20dp">
+        <LinearLayout android:layout_width="0dp" android:layout_height="match_parent"
+                      android:layout_weight="1">
+            <TextView android:layout_width="wrap_content" android:layout_height="match_parent"
+                      android:text="学号"
+                      android:gravity="center"
+                      android:textSize="20dp"/></LinearLayout>
+        <LinearLayout android:layout_width="0dp" android:layout_height="match_parent"
+                      android:layout_weight="3">
+            <TextView android:layout_width="wrap_content" android:layout_height="match_parent"
+                      android:text="未设置"
+                      android:gravity="center"
+                      android:layout_marginLeft="10dp"
+                      android:textSize="20dp" android:id="@+id/studentid"/></LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="2dp"
+                                     android:background="#CCCCCC"
+                                     android:layout_marginLeft="15dp"
+                                     android:layout_marginRight="15dp"></LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="50dp"
+                  android:orientation="horizontal"
+                  android:layout_marginLeft="20dp">
+        <LinearLayout android:layout_width="0dp" android:layout_height="match_parent"
+                      android:layout_weight="1">
+            <TextView android:layout_width="wrap_content" android:layout_height="match_parent"
+                      android:text="手机号"
+                      android:gravity="center"
+                      android:textSize="20dp"/></LinearLayout>
+        <LinearLayout android:layout_width="0dp" android:layout_height="match_parent"
+                      android:layout_weight="3">
+            <TextView android:layout_width="wrap_content" android:layout_height="match_parent"
+                      android:text="未设置"
+                      android:gravity="center"
+                      android:layout_marginLeft="10dp"
+                      android:textSize="20dp" android:id="@+id/phonenum"/></LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="2dp"
+                  android:background="#CCCCCC"
+                  android:layout_marginLeft="15dp"
+                  android:layout_marginRight="15dp"></LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="50dp"
+                  android:orientation="horizontal"
+                  android:layout_marginLeft="20dp">
+        <LinearLayout android:layout_width="0dp" android:layout_height="match_parent"
+                android:layout_weight="1">
+        <TextView android:layout_width="wrap_content" android:layout_height="match_parent"
+                  android:text="蓝牙设备"
+                  android:gravity="center"
+                  android:textSize="20dp"/></LinearLayout>
+        <LinearLayout android:layout_width="0dp" android:layout_height="match_parent"
+                      android:layout_weight="3">
+        <TextView android:layout_width="wrap_content" android:layout_height="match_parent"
+                  android:text="未设置"
+                  android:gravity="center"
+                  android:id="@+id/mybtid"
+                  android:layout_marginLeft="10dp"
+                  android:textSize="20dp"/>
+         <ImageButton android:layout_width="wrap_content" android:layout_height="50dp"
+                    android:layout_marginLeft="30dp"
+                      android:background="#FFFFFF"
+                    android:src="@drawable/shuaxin"
+                      android:id="@+id/shuaxinbtn"
+                 android:scaleType="fitCenter"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="2dp"
+                  android:background="#CCCCCC"
+                  android:layout_marginLeft="15dp"
+                  android:layout_marginRight="15dp"></LinearLayout>
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="50dp"
+                  android:orientation="horizontal"
+                  android:layout_marginLeft="20dp">
+      <Button android:layout_width="match_parent" android:layout_height="match_parent"
+            android:text="退出登录"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:background="#FFFFFF"
+            android:id="@+id/quitbtn"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="0dp"
+                  android:layout_weight="1"
+                  android:background="#CCCCCC"></LinearLayout>
+</LinearLayout>

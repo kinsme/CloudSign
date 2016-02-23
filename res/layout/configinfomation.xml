@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="50dp"
+                    android:orientation="horizontal"
+                    android:background="#333333">
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="match_parent"
+                      android:layout_alignParentLeft="true"
+                      android:gravity="center">
+            <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="取消"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/chcelbtn"
+                    android:background="#333333"
+                    android:textColor="#FFFFFF"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:gravity="center">
+            <TextView android:layout_width="wrap_content" android:layout_height="match_parent"
+                      android:text="修改资料"
+                      android:textColor="#FFFFFF"
+                      android:gravity="center"
+                      android:textSize="20dp" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="match_parent"
+                      android:layout_alignParentRight="true"
+                      android:gravity="center">
+            <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="保存"
+                    android:textSize="20dp"
+                    android:layout_marginRight="5dp"
+                    android:id="@+id/savebtn"
+                    android:background="#333333"
+                    android:textColor="#FFFFFF"/>
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="个人资料"
+                android:textColor="#3366FF" />
+        <LinearLayout android:layout_width="match_parent" android:layout_height="2dp"
+                android:background="#3366FF"></LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:layout_marginLeft="10dp"
+                  android:layout_marginRight="10dp"
+                  android:layout_marginTop="10dp"
+                  android:orientation="horizontal">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:text="学校"
+                  android:textSize="20dp" />
+        <EditText android:layout_width="0dp"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="1"
+                android:id="@+id/editschool"
+                android:hint="未设置"
+                android:textSize="20dp"
+                android:layout_marginLeft="60dp"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:layout_marginLeft="10dp"
+                  android:layout_marginRight="10dp"
+                  android:layout_marginTop="10dp"
+                  android:orientation="horizontal">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:text="学院"
+                  android:textSize="20dp" />
+        <EditText android:layout_width="0dp"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="1"
+                  android:id="@+id/editacademy"
+                  android:hint="未设置"
+                  android:textSize="20dp"
+                  android:layout_marginLeft="60dp"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:layout_marginLeft="10dp"
+                  android:layout_marginRight="10dp"
+                  android:layout_marginTop="10dp"
+                  android:orientation="horizontal">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:text="班级"
+                  android:textSize="20dp" />
+        <EditText android:layout_width="0dp"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="1"
+                  android:id="@+id/editclass"
+                  android:hint="未设置"
+                  android:textSize="20dp"
+                  android:layout_marginLeft="60dp"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:layout_marginLeft="10dp"
+                  android:layout_marginRight="10dp"
+                  android:layout_marginTop="10dp"
+                  android:orientation="horizontal">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:text="学号"
+                  android:textSize="20dp" />
+        <EditText android:layout_width="0dp"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="1"
+                  android:id="@+id/editstid"
+                  android:hint="未设置"
+                  android:textSize="20dp"
+                  android:layout_marginLeft="60dp"/>
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:layout_marginLeft="10dp"
+                  android:layout_marginRight="10dp"
+                  android:layout_marginTop="25dp"
+                  android:orientation="vertical">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:text="账号安全"
+                  android:layout_alignParentLeft="true"
+                  android:textColor="#3366FF"/>
+            <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="修改密码"
+                    android:textColor="#0066FF"
+                    android:id="@+id/changepwbtn"
+                    android:layout_alignParentRight="true"
+                    android:background="#FFFFFF"/>
+        </RelativeLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="2dp"
+                      android:background="#3366FF"></LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:layout_marginLeft="10dp"
+                  android:layout_marginRight="10dp"
+                  android:layout_marginTop="25dp"
+                  android:orientation="horizontal">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:text="绑定邮箱"
+                  android:textSize="20dp"/>
+        <TextView android:layout_width="0dp" android:layout_height="wrap_content"
+                  android:id="@+id/emailte"
+                  android:layout_weight="1"
+                  android:gravity="center"
+                  android:text="未设置"
+                  android:textColor="#666666"
+                  android:layout_marginLeft="60dp"/>
+        <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+                  android:layout_weight="1"
+                  android:layout_marginLeft="60dp"></LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:layout_marginLeft="10dp"
+                  android:layout_marginRight="10dp"
+                  android:layout_marginTop="25dp"
+                  android:orientation="horizontal">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:text="绑定手机"
+                  android:textSize="20dp"/>
+        <RelativeLayout android:layout_width="0dp" android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="60dp"
+        >
+        <TextView android:layout_width="match_parent" android:layout_height="match_parent"
+                  android:id="@+id/editpnum"
+                  android:layout_centerInParent="true"
+                  android:gravity="center"
+                  android:text="未设置"
+                  android:textColor="#666666"
+                  />
+            <EditText android:layout_width="match_parent" android:layout_height="match_parent"
+            android:id="@+id/phonenumedit"
+            android:layout_centerInParent="true"
+            android:visibility="gone"/>
+        </RelativeLayout>
+        <Button android:layout_width="0dp" android:layout_height="wrap_content"
+                android:id="@+id/changepnum"
+                android:text="修改"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="@drawable/useratybtn"
+                android:textSize="20dp"
+                android:textColor="#666666"
+                android:layout_marginLeft="60dp"/>
+    </LinearLayout>
+
+</LinearLayout>

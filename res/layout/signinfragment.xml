@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+        android:background="#FFFFFF">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="20dp"
+                  android:background="#CCCCCC"></LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="50dp"
+                    android:orientation="horizontal"
+                  android:layout_marginLeft="20dp">
+        <LinearLayout android:layout_width="0dp" android:layout_height="match_parent"
+                      android:layout_weight="1">
+            <TextView android:layout_width="wrap_content" android:layout_height="match_parent"
+                    android:text="选择课程"
+                    android:textSize="20dp"
+                      android:gravity="center"
+                    android:layout_marginLeft="5dp"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="3dp" android:layout_height="match_parent"
+                    android:background="#cccccc"></LinearLayout>
+        <LinearLayout android:layout_width="0dp" android:layout_height="match_parent"
+                      android:layout_weight="1"
+                      android:orientation="horizontal"
+                      android:id="@+id/mydropdown">
+            <TextView android:layout_width="0dp" android:layout_height="match_parent"
+            android:layout_weight="3"
+                      android:gravity="center_vertical"
+                      android:textSize="20dp"
+            android:id="@+id/choosed_coursenamet"/>
+            <ImageView android:layout_width="0dp" android:layout_height="match_parent"
+            android:layout_weight="1"
+                       android:id="@+id/arrowImage"
+            android:src="@drawable/arrow"/>
+        </LinearLayout>
+    </LinearLayout>
+    <!--<Spinner android:layout_width="match_parent" android:layout_height="match_parent"-->
+                     <!--android:id="@+id/choosedcourse"-->
+                     <!--android:spinnerMode="dropdown"-->
+                     <!--android:textSize="20dp" />-->
+
+
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="20dp"
+                  android:background="#CCCCCC"></LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="50dp"
+                  android:orientation="horizontal"
+                  android:layout_marginLeft="20dp">
+        <LinearLayout android:layout_width="0dp" android:layout_height="match_parent"
+                      android:layout_weight="1">
+        <TextView android:layout_width="wrap_content" android:layout_height="match_parent"
+                  android:text="课名"
+                  android:gravity="center"
+                  android:textSize="20dp"/></LinearLayout>
+        <LinearLayout android:layout_width="0dp" android:layout_height="match_parent"
+                      android:layout_weight="1">
+        <TextView android:layout_width="wrap_content" android:layout_height="match_parent"
+                  android:id="@+id/choosedcoursename"
+                  android:text="test"
+                  android:textSize="20dp"
+                  android:gravity="center"/></LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="2dp"
+                  android:background="#CCCCCC"
+                  android:layout_marginLeft="15dp"
+                  android:layout_marginRight="15dp"></LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="50dp"
+                  android:orientation="horizontal"
+                  android:layout_marginLeft="20dp">
+        <LinearLayout android:layout_width="0dp" android:layout_height="match_parent"
+                      android:layout_weight="1">
+            <TextView android:layout_width="wrap_content" android:layout_height="match_parent"
+                      android:text="老师"
+                      android:gravity="center"
+                      android:textSize="20dp"/></LinearLayout>
+        <LinearLayout android:layout_width="0dp" android:layout_height="match_parent"
+                      android:layout_weight="1">
+            <TextView android:layout_width="wrap_content" android:layout_height="match_parent"
+                      android:id="@+id/choosedcourseteacher"
+                      android:text="test"
+                      android:textSize="20dp"
+                      android:gravity="center"/></LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="2dp"
+                  android:background="#CCCCCC"
+                  android:layout_marginLeft="15dp"
+                  android:layout_marginRight="15dp"></LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="50dp"
+                  android:orientation="horizontal"
+                  android:layout_marginLeft="20dp">
+        <LinearLayout android:layout_width="0dp" android:layout_height="match_parent"
+                      android:layout_weight="1">
+            <TextView android:layout_width="wrap_content" android:layout_height="match_parent"
+                      android:text="老师蓝牙设备"
+                      android:gravity="center"
+                      android:textSize="20dp"/></LinearLayout>
+        <LinearLayout android:layout_width="0dp" android:layout_height="match_parent"
+                      android:layout_weight="1">
+            <TextView android:layout_width="wrap_content" android:layout_height="match_parent"
+                      android:id="@+id/choosedcourseteacherbt"
+                      android:text="test"
+                      android:textSize="20dp"
+                      android:gravity="center"/></LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="2dp"
+                  android:background="#CCCCCC"
+                  android:layout_marginLeft="15dp"
+                  android:layout_marginRight="15dp"></LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="50dp"
+                  android:orientation="horizontal"
+                  android:layout_marginLeft="20dp">
+        <LinearLayout android:layout_width="0dp" android:layout_height="match_parent"
+                      android:layout_weight="1">
+            <TextView android:layout_width="wrap_content" android:layout_height="match_parent"
+                      android:text="是否正在上课"
+                      android:gravity="center"
+                      android:textSize="20dp"/></LinearLayout>
+        <LinearLayout android:layout_width="0dp" android:layout_height="match_parent"
+                      android:layout_weight="1">
+            <LinearLayout android:layout_width="0dp" android:layout_height="match_parent"
+                          android:layout_weight="1">
+            <TextView android:layout_width="wrap_content" android:layout_height="match_parent"
+                      android:id="@+id/choosedcourseison"
+                      android:text="否"
+                      android:textColor="#F00"
+                      android:textSize="20dp"
+                      android:gravity="center"/></LinearLayout>
+        <ImageButton android:layout_width="0dp" android:layout_height="match_parent"
+                     android:layout_weight="1"
+                     android:background="#FFFFFF"
+                     android:src="@drawable/shuaxin"
+                     android:id="@+id/shuaxinisable"
+                     android:scaleType="fitCenter"/></LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="2dp"
+                  android:background="#CCCCCC"
+                  android:layout_marginLeft="15dp"
+                  android:layout_marginRight="15dp"></LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="50dp"
+                  android:orientation="horizontal"
+                  android:layout_marginLeft="20dp">
+        <LinearLayout android:layout_width="0dp" android:layout_height="match_parent"
+                      android:layout_weight="1">
+            <TextView android:layout_width="wrap_content" android:layout_height="match_parent"
+                      android:text="已签人数"
+                      android:gravity="center"
+                      android:textSize="20dp"/></LinearLayout>
+        <LinearLayout android:layout_width="0dp" android:layout_height="match_parent"
+                      android:layout_weight="1">
+            <LinearLayout android:layout_width="0dp" android:layout_height="match_parent"
+                          android:layout_weight="1">
+            <TextView android:layout_width="wrap_content" android:layout_height="match_parent"
+                      android:id="@+id/choosedsignnum"
+                      android:text="0"
+                      android:textSize="20dp"
+                      android:gravity="center"/></LinearLayout>
+            <ImageButton android:layout_width="0dp" android:layout_height="match_parent"
+                         android:background="#FFFFFF"
+                         android:layout_weight="1"
+                         android:src="@drawable/shuaxin"
+                         android:id="@+id/shuaxinnum"
+                         android:scaleType="fitCenter"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="20dp"
+                  android:background="#CCCCCC"></LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="0dp"
+                  android:layout_weight="1"
+                  android:orientation="horizontal">
+        <LinearLayout android:layout_width="0dp" android:layout_height="match_parent"
+                      android:layout_weight="1"
+                android:gravity="center">
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:id="@+id/signinnow"
+                android:text="签到"
+                android:textSize="25dp"
+                android:background="@drawable/useratybtn"/>
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="2dp" android:layout_height="match_parent"
+                      android:background="#CCCCCC"></LinearLayout>
+        <ScrollView android:layout_width="0dp" android:layout_height="wrap_content"
+                android:layout_weight="2">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
+                android:orientation="vertical">
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:text="签到状态："
+                  android:layout_marginTop="10dp"
+                  android:textSize="20dp"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:id="@+id/signinstate1"
+                  android:text=""
+                  android:layout_marginTop="20dp"
+                  android:textSize="20dp"
+                  android:textColor="#666666"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:id="@+id/signinstate2"
+                      android:text=""
+                      android:layout_marginTop="10dp"
+                      android:textSize="20dp"
+                      android:textColor="#666666"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:id="@+id/signinstate3"
+                      android:text=""
+                      android:layout_marginTop="10dp"
+                      android:textSize="20dp"
+                      android:textColor="#666666"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:id="@+id/signinstate4"
+                      android:text=""
+                      android:layout_marginTop="10dp"
+                      android:textSize="20dp"
+                      android:textColor="#666666"/>
+        </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>

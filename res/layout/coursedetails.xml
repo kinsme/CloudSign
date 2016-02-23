@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="50dp"
+                    android:orientation="horizontal"
+                    android:background="#333333">
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="match_parent"
+                      android:layout_alignParentLeft="true"
+                      android:gravity="center">
+            <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="返回"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/retbtn"
+                    android:background="#333333"
+                    android:textColor="#FFFFFF"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:gravity="center">
+            <TextView android:layout_width="wrap_content" android:layout_height="match_parent"
+                      android:text="000"
+                      android:textColor="#FFFFFF"
+                      android:gravity="center"
+                      android:id="@+id/coursetitle"
+                      android:textSize="20dp" />
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="课程信息"
+                android:textColor="#3366FF"/>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="2dp"
+                android:background="#3366FF"></LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:layout_marginLeft="10dp"
+                  android:layout_marginRight="10dp"
+                  android:layout_marginTop="10dp"
+                  android:orientation="horizontal">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:text="名称"
+                  android:textSize="20dp"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:id="@+id/coursedetailname"
+                android:text="test"
+                android:textSize="20dp"
+                android:layout_marginLeft="60dp"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:layout_marginLeft="10dp"
+                  android:layout_marginRight="10dp"
+                  android:layout_marginTop="25dp"
+                  android:orientation="horizontal">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:text="老师"
+                  android:textSize="20dp"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:id="@+id/coursedetailteacher"
+                  android:text="test"
+                  android:textColor="#666666"
+                  android:textSize="20dp"
+                  android:layout_marginLeft="60dp"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:layout_marginLeft="10dp"
+                  android:layout_marginRight="10dp"
+                  android:layout_marginTop="25dp"
+                  android:orientation="horizontal">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:text="教室"
+                  android:textSize="20dp"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:id="@+id/coursedetailhome"
+                  android:text="test"
+                  android:textSize="20dp"
+                  android:textColor="#666666"
+                  android:layout_marginLeft="60dp"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:layout_marginLeft="10dp"
+                  android:layout_marginRight="10dp"
+                  android:layout_marginTop="25dp"
+                  android:orientation="horizontal">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:text="节次"
+                  android:textSize="20dp"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:id="@+id/coursedetailtime"
+                  android:text="test"
+                  android:textSize="20dp"
+                  android:textColor="#666666"
+                  android:layout_marginLeft="60dp"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:layout_marginLeft="10dp"
+                  android:layout_marginRight="10dp"
+                  android:layout_marginTop="25dp"
+                  android:orientation="vertical">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:text="课堂同学"
+                  android:textColor="#3366FF"/>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="2dp"
+                      android:background="#3366FF"></LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:layout_marginLeft="10dp"
+                  android:layout_marginRight="10dp"
+                  android:layout_marginTop="25dp"
+                  android:orientation="horizontal">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:text="同学"
+                  android:textSize="20dp"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:id="@+id/classmates"
+                  android:text="共 位同学"
+                  android:textSize="20dp"
+                  android:textColor="#666666"
+                  android:layout_marginLeft="60dp"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:layout_marginLeft="10dp"
+                  android:layout_marginRight="10dp"
+                  android:layout_marginTop="25dp"
+                  android:orientation="vertical">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:text="是否可签到"
+                  android:textColor="#3366FF"/>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="2dp"
+                      android:background="#3366FF"></LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:layout_marginLeft="10dp"
+                  android:layout_marginRight="10dp"
+                  android:layout_marginTop="25dp"
+                  android:orientation="horizontal">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:text="老师蓝牙"
+                  android:textSize="20dp"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:id="@+id/bluetooth"
+                  android:text="关闭"
+                  android:textSize="20dp"
+                  android:textColor="#666666"
+                  android:layout_marginLeft="60dp"/>
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:id="@+id/signinthis"
+                android:layout_marginLeft="60dp"
+                android:text="去签到"
+                android:background="@drawable/useratybtn"/>
+    </LinearLayout>
+
+</LinearLayout>
